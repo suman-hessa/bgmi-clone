@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    border:border-box;
+    font-family: 'Teko', sans-serif;
+
+  
+}
+/* Navbar */
+.navigation a:hover{
+  color:white;
+  opacity:100%;
+}
+.navigation a:active{
+    color:#e2ad0d;
+}
+
+
+.container{
+    height:80px;
+  display : flex;
+  align-items:center;
+  background-color:black;
+   position:fixed;
+   z-index:1;
+  top:0px;
+}
+/* Box 1 */
+.nav-logo{
+   padding:5px 23px;
+}
+/* Box 2 */
+.navigation{
+    width:50%;
+    
+}
+.navigation ul{
+    display:flex;
+    align-items:center;
+    height:70px;
+    font-size:1.3rem;
+}
+.navigation li a{
+    color:white;
+    opacity:0.5;
+     list-style:none;
+     text-transform:uppercase;
+     padding:0px 20px;
+     text-decoration:none;
+}
+
+/* Box 3 */
+.links{
+    height:70px;
+    width:200px;
+    padding:7px 5px;
+ 
+}
+.links ul{
+    display:flex;
+    align-items:center;
+    
+}
+.links li{
+    list-style:none;
+    padding:7px 5px;
+} 
+
+/* Box 4 */
+.buttons{
+    display:flex;
+}
+.buttons button{
+    height:80px;
+    width:190px;
+    font-size:22px;
+    text-transform:uppercase;
+    background-color: #e2ad0d;
+    border:none;
+    border-right:2px solid black;
+    cursor:pointer;
+    font-weight:700;
+}
+button:hover{
+    background-color:#ab8511;
+}
+/*   Background*/
+
+/* .image{
+    height:1000px;
+} */
+
+/* content */
+
+.content{
+    display:flex;
+    flex-direction:column;
+}
+/* poster */
+.main img{
+    width:100%;
+    background-size:cover;
+     background-repeat:none;
+  
+
+}
+
+/* text */
+.section-video{
+    height:1000px;
+    width:100%;
+    padding:100px 0px;
+    text-align:center;
+    background-image:url("/img/white_bg.jpg");
+    background-repeat:no-repeat;
+   }
+
+.section-video p{
+    font-size:3.5rem;
+    font-weight:700;
+}
+
+.section-video iframe{
+    position:relative;
+    top:13px;
+    bottom:-688px;
+    height:675px;
+    width:1200px;
+}
+/* News Section */
+.news-section{
+    padding-top:100px;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    margin:10px 5px;
+    background-color:rgb(198, 161, 161);
+}
+.news-section p{
+    font-size:3.5rem;
+    font-weight:700;
+}
+.news1{
+    border:2px solid red;
+    margin:0px 10px;
+}
+
+.news2{
+    border:2px solid green;
+    margin:0px 10px;
+}
+.news3{
+
+    border:2px solid red;
+    margin:0px 10px;
+}
+.news-panel{
+    display:flex;
+    margin: 20px auto;
+}
+.news-img{
+    height:210px;
+    width:400px;
+    padding:0px 5px;
+
+}
+
+
+
+
+
