@@ -18,6 +18,7 @@
 
 .container{
     height:80px;
+    width:100%;
   display : flex;
   align-items:center;
   background-color:black;
@@ -31,7 +32,7 @@
 }
 /* Box 2 */
 .navigation{
-    width:50%;
+    width:70%;
     
 }
 .navigation ul{
@@ -81,7 +82,7 @@
     cursor:pointer;
     font-weight:700;
 }
-button:hover{
+.buttons button:hover{
     background-color:#ab8511;
 }
 /*   Background*/
@@ -107,7 +108,6 @@ button:hover{
 
 /* text */
 .section-video{
-    height:1000px;
     width:100%;
     padding:100px 0px;
     text-align:center;
@@ -129,30 +129,28 @@ button:hover{
 }
 /* News Section */
 .news-section{
+    background-image: url(/img/news_bg.jpg);
+    height:1000px;
+    width:100%;     
     padding-top:100px;
     text-align:center;
     display:flex;
     flex-direction:column;
-    margin:10px 5px;
-    background-color:rgb(198, 161, 161);
+    align-items:center;
 }
-.news-section p{
+.news-panel{
+    display:flex;
+    justify-content:center;
+    margin-top:60px;
+}
+.news-head{
     font-size:3.5rem;
     font-weight:700;
 }
-.news1{
-    border:2px solid red;
+.news{
+    background-color:white;
     margin:0px 10px;
-}
-
-.news2{
-    border:2px solid green;
-    margin:0px 10px;
-}
-.news3{
-
-    border:2px solid red;
-    margin:0px 10px;
+    margin-bottom:20px;
 }
 .news-panel{
     display:flex;
@@ -161,10 +159,29 @@ button:hover{
 .news-img{
     height:210px;
     width:400px;
-    padding:0px 5px;
 
 }
+.text1{
+    font-size:1.25rem;
+    text-align:left;
+    padding : 0px 20px;
+}
 
+.text2 {
+   font-size: 1.375rem;
+   text-align:left;
+   padding:0px 20px;
+}
+.news-section button{
+    height: 55px;
+    width: 200px;
+    font-size:1.3rem;
+    opacity: 0.7;
+    border:2px solid rgb(156, 153, 153);
+}
+.news-section button:hover{
+  border:2px solid black;
+}
 
 
 
